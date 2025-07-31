@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Showroom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed tracking-wide flex flex-col">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-red-600">BikeX Showroom</h1>
+      <nav class="space-x-6">
+        <a href="#home" class="text-gray-700 hover:text-red-600">Home</a>
+        <a href="#bikes" class="text-gray-700 hover:text-red-600">Bikes</a>
+        <a href="#contact" class="text-gray-700 hover:text-red-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-cover bg-center h-[500px] text-white" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');">
+    <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+      <div class="text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Discover Your Dream Ride</h2>
+        <p class="text-lg mb-6">High-performance bikes for every road</p>
+        <a href="#bikes" class="bg-red-600 px-6 py-3 rounded hover:bg-red-700 transition">Explore Bikes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bikes Section -->
+  <section id="bikes" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10">Featured Bikes</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        <!-- Bike Card -->
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1605711416984-0d6510c140a6" alt="Bike 1" class="rounded mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Thunderbolt X</h4>
+          <p class="text-gray-600 mt-2">A perfect blend of power and style.</p>
+          <p class="text-red-600 font-bold mt-4">$3,499</p>
+        </div>
+
+        <!-- Bike Card -->
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1594633319752-bc6f59c8e8f3" alt="Bike 2" class="rounded mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Racer GT</h4>
+          <p class="text-gray-600 mt-2">Designed for speed and precision handling.</p>
+          <p class="text-red-600 font-bold mt-4">$4,200</p>
+        </div>
+
+        <!-- Bike Card -->
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1600788907411-94b7e1c21958" alt="Bike 3" class="rounded mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Mountain Pro</h4>
+          <p class="text-gray-600 mt-2">Tackle any terrain with ease and confidence.</p>
+          <p class="text-red-600 font-bold mt-4">$5,150</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+      <p class="mb-6">Visit our showroom or contact us for more details about our bike collection.</p>
+      <div class="flex flex-col gap-4">
+        <p><strong>Address:</strong> 123 Rider Lane, Speed City, SC 90210</p>
+        <p><strong>Email:</strong> contact@bikexshowroom.com</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center text-white py-6">
+    &copy; 2025 BikeX Showroom. All rights reserved.
+  </footer>
+
+</body>
+</html>
